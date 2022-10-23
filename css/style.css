@@ -1,0 +1,90 @@
+/* Body */
+body {
+  background-color: rgb(30, 30, 30);
+  color: rgb(180, 180, 180);
+  text-align: center;
+}
+h2 {
+  text-shadow: 3px;
+  font-size: 35px;
+  font-style: bold;
+  color: white;
+}
+
+/* Header */
+header {
+}
+header h1 {
+  text-shadow: 3px;
+  font-size: 50px;
+  color: white;
+  font-style: bold;
+}
+header p {
+  text-shadow: 2px;
+  font-size: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
+  margin-bottom: 75px;
+  font-style: italic;
+}
+
+/* Main */
+
+/* Lists */
+main ul li {
+  text-shadow: 1px;
+  font-size: 25px;
+}
+main ol li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-shadow: 3px;
+  font-size: 35px;
+}
+main ol li:nth-child(even) {
+  color: white;
+}
+main ol li:nth-child(odd) a {
+  color: rgb(180, 180, 180);
+}
+main ol li:nth-child(odd) a:hover {
+  color: rgb(52, 180, 137);
+}
+
+/* Figure */
+#reviews {
+  margin-top: 100px;
+}
+main figure img {
+  width: 300px;
+  padding-left: 300px;
+}
+main figure {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-width: 100%;
+}
+main figure figcaption {
+  padding-right: 300px;
+  font-style: italic;
+  padding-top: 125px;
+  border-left: 0px;
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+/* Footer */
+footer {
+  text-align: left;
+  background-color: rgb(50, 50, 50);
+}
+
+/* Links */
+a {
+  color: white;
+}
+a:hover {
+  color: aquamarine;
+}
